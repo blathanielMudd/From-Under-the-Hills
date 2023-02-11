@@ -1,0 +1,139 @@
+{
+  "entity.cow.ambient": {
+    "sounds": [
+      {
+        "name": "hills:none",
+        "weight": 17
+      },
+      {
+        "name": "hills:cow/say1",
+        "weight": 1
+      },
+      {
+        "name": "hills:cow/say2",
+        "weight": 2
+      }
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.cow.ambient"
+  },
+  "entity.cow.death": {
+    "sounds": [
+      "hills:cow/die1"
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.cow.death"
+  },
+  "entity.cow.hurt": {
+    "sounds": [
+      "hills:cow/hurt1",
+      "hills:cow/hurt2"
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.cow.hurt"
+  },
+  "entity.cow.milk": {
+    "sounds": [
+      "entity/cow/milk1",
+      "entity/cow/milk2",
+      "entity/cow/milk3"
+    ],
+    "subtitle": "subtitles.entity.cow.milk"
+  },
+  "entity.cow.step": {
+    "sounds": [
+      "hills:cow/step1",
+      "hills:cow/step2",
+      "hills:cow/step3"
+    ],
+    "replace": true,
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.sheep.ambient": {
+    "sounds": [
+      {
+        "name": "none",
+        "weight": 15
+      },
+      {
+        "name": "hills:sheep/baa1",
+        "weight": 1
+      }
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.sheep.ambient"
+  },
+  "entity.sheep.death": {
+    "sounds": [
+      "mob/sheep/say1",
+      "mob/sheep/say2",
+      "mob/sheep/say3"
+    ],
+    "subtitle": "subtitles.entity.sheep.death"
+  },
+  "entity.sheep.hurt": {
+    "sounds": [
+      "mob/sheep/say1",
+      "mob/sheep/say2",
+      "mob/sheep/say3"
+    ],
+    "subtitle": "subtitles.entity.sheep.hurt"
+  },
+  "entity.sheep.shear": {
+    "sounds": [
+      "mob/sheep/shear"
+    ],
+    "subtitle": "subtitles.item.shears.shear"
+  },
+  "entity.sheep.step": {
+    "sounds": [
+      "mob/sheep/step1",
+      "mob/sheep/step2",
+      "mob/sheep/step3",
+      "mob/sheep/step4",
+      "mob/sheep/step5"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.chicken.ambient": {
+    "sounds": [
+      "hills:chicken/say1",
+      "hills:chicken/say2",
+      {
+        "name": "hills:none",
+        "weight": 18
+      }
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.chicken.ambient"
+  },
+  "entity.chicken.death": {
+    "sounds": [
+      "hills:chicken/hurt1",
+      "hills:chicken/hurt2"
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.chicken.death"
+  },
+  "entity.chicken.egg": {
+    "sounds": [
+      "mob/chicken/plop"
+    ],
+    "subtitle": "subtitles.entity.chicken.egg"
+  },
+  "entity.chicken.hurt": {
+    "sounds": [
+      "hills:chicken/hurt1",
+      "hills:chicken/hurt2"
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.chicken.hurt"
+  },
+  "entity.chicken.step": {
+    "sounds": [
+      "mob/chicken/step1",
+      "mob/chicken/step2"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  }
+}

@@ -1,0 +1,227 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "textures/entity/sheep/sheep - Copy.png",
+	"textureSize": [48, 32],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -18, 8]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -19, -2],
+			"submodels": [
+				{
+					"id": "body2",
+					"invertAxis": "xy",
+					"translate": [0, 19, 2],
+					"rotate": [-90, 0, 0],
+					"boxes": [
+						{"coordinates": [-4, -7, -14, 8, 16, 6], "textureOffset": [0, 0], "sizeAdd": 1.75}
+					],
+					"submodels": [
+						{
+							"id": "wool",
+							"invertAxis": "xy",
+							"translate": [0, -19, -2],
+							"boxes": [
+								{
+									"coordinates": [-4, 17, -1, 8, 8, 8],
+									"uvNorth": [28, 6, 33, 11],
+									"uvEast": [28, 6, 32.5, 11],
+									"uvSouth": [28, 6, 33, 11],
+									"uvWest": [28, 6, 33, 11],
+									"uvUp": [33, 11, 28, 6],
+									"uvDown": [33, 6, 28, 11]
+								}
+							]
+						},
+						{
+							"id": "head2",
+							"invertAxis": "xy",
+							"translate": [0, 10, -13],
+							"rotate": [90, 0, 0],
+							"boxes": [
+								{"coordinates": [-3, -2, -8, 6, 6, 8], "textureOffset": [20, 14]}
+							]
+						},
+						{
+							"id": "legs",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"rotate": [90, 0, 0],
+							"boxes": [
+								{"coordinates": [1, -19, 3, 4, 4, 4], "textureOffset": [0, 22]},
+								{"coordinates": [1, -19, -9, 4, 4, 4], "textureOffset": [0, 22]},
+								{"coordinates": [-5, -19, -3, 4, 4, 4], "textureOffset": [0, 22]}
+							]
+						},
+						{
+							"id": "legs2",
+							"invertAxis": "xy",
+							"translate": [-6, 0, 0],
+							"rotate": [90, 0, 0],
+							"boxes": [
+								{"coordinates": [1, -19, 3, 4, 4, 4], "textureOffset": [0, 22]},
+								{"coordinates": [7, -19, -3, 4, 4, 4], "textureOffset": [0, 22]},
+								{"coordinates": [1, -19, -9, 4, 4, 4], "textureOffset": [0, 22]}
+							]
+						},
+						{
+							"id": "leaves",
+							"invertAxis": "xy",
+							"translate": [0, 3, -6],
+							"rotate": [90, 0, 0],
+							"submodels": [
+								{
+									"id": "leaf1",
+									"invertAxis": "xy",
+									"translate": [1.15538, -0.51746, 0],
+									"rotate": [-7.5, 0, -67.5],
+									"boxes": [
+										{
+											"coordinates": [-0.31703, -0.03912, -3, 0, 9, 6],
+											"uvNorth": [34, 5, 34, 14],
+											"uvEast": [34, 5, 40, 14],
+											"uvSouth": [40, 5, 40, 14],
+											"uvWest": [34, 5, 40, 14],
+											"uvUp": [34, 5, 34, -1],
+											"uvDown": [34, -1, 34, 5]
+										}
+									]
+								},
+								{
+									"id": "leaf2",
+									"invertAxis": "xy",
+									"translate": [0.05314, 0, 1.56476],
+									"rotate": [92.96346, -32.46527, -91.59176],
+									"boxes": [
+										{
+											"coordinates": [0.46037, -0.05505, -3.17448, 0, 9, 6],
+											"uvNorth": [34, 5, 34, 14],
+											"uvEast": [34, 5, 40, 14],
+											"uvSouth": [40, 5, 40, 14],
+											"uvWest": [34, 5, 40, 14],
+											"uvUp": [34, 5, 34, -1],
+											"uvDown": [34, -1, 34, 5]
+										}
+									]
+								},
+								{
+									"id": "leaf3",
+									"invertAxis": "xy",
+									"translate": [-1, -0.75, 1],
+									"rotate": [-0.57639, -9.30727, 66.69304],
+									"boxes": [
+										{
+											"coordinates": [0.5, 0.5, -3.5, 0, 9, 6],
+											"uvNorth": [40, 5, 40, 14],
+											"uvEast": [34, 5, 40, 14],
+											"uvSouth": [46, 5, 46, 14],
+											"uvWest": [34, 5, 40, 14],
+											"uvUp": [40, 5, 40, -1],
+											"uvDown": [40, -1, 40, 5]
+										}
+									]
+								},
+								{
+									"id": "leaf4",
+									"invertAxis": "xy",
+									"translate": [0.05314, -1, -0.43524],
+									"rotate": [-93.15, 37.45817, -91.91699],
+									"boxes": [
+										{
+											"coordinates": [0, 0.5, -3, 0, 9, 6],
+											"uvNorth": [40, 5, 40, 14],
+											"uvEast": [34, 5, 40, 14],
+											"uvSouth": [46, 5, 46, 14],
+											"uvWest": [34, 5, 40, 14],
+											"uvUp": [40, 5, 40, -1],
+											"uvDown": [40, -1, 40, 5]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "stems",
+							"invertAxis": "xy",
+							"translate": [0, 3, -6],
+							"rotate": [90, 0, 0],
+							"submodels": [
+								{
+									"id": "stem",
+									"invertAxis": "xy",
+									"translate": [0, 7.5, 0],
+									"boxes": [
+										{"coordinates": [-2, -7.5, 0, 4, 15, 0], "textureOffset": [40, 0]}
+									]
+								},
+								{
+									"id": "stem2",
+									"invertAxis": "xy",
+									"translate": [0, 7.5, 0],
+									"rotate": [0, 90, 0],
+									"boxes": [
+										{"coordinates": [-2, -7.5, 0, 4, 15, 0], "textureOffset": [40, 0]}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"body2.rx": "torad(90)",
+					"head2.rx": "torad(-90) + torad(clamp(head_pitch, -30, 25))",
+					"legs.ty": "sin(limb_swing*0.4)*(limb_speed*1.6)",
+					"legs2.ty": "-legs.ty",
+					"legs.tz": "clamp(-cos(limb_swing*0.4)*(limb_speed*1.6), 0, 99)",
+					"legs2.tz": "clamp(cos(limb_swing*0.4)*(limb_speed*1.6), 0, 99)",
+					"body2.tz": "if(limb_speed<0.1, 2, 2+(cos(limb_swing*1.4)*(limb_speed*0.8)))",
+					"body2.ry": "sin(-limb_swing*0.7)*(limb_speed*0.2)",
+					"body2.tx": "sin(-limb_swing*0.7)*(limb_speed*2.2)",
+					"leaves.ry": "sin(-limb_swing*0.7)*(limb_speed*0.4)",
+					"stems.ry": "sin(-limb_swing*0.7)*(limb_speed*0.5)",
+					"wool.ry": "sin(-limb_swing*0.7)*(limb_speed*0.7)"
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-3, -12, -7],
+			"submodels": [
+				{
+					"id": "r2",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0]
+				}
+			]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [3, -12, -7]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-3, -12, 5]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [3, -12, 5]
+		}
+	]
+}
