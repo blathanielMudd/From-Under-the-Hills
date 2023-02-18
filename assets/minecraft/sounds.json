@@ -3,7 +3,7 @@
     "sounds": [
       {
         "name": "hills:none",
-        "weight": 65
+        "weight": 200
       },
       {
         "name": "hills:cow/say1",
@@ -101,7 +101,7 @@
       "hills:chicken/say2",
       {
         "name": "hills:none",
-        "weight": 18
+        "weight": 80
       }
     ],
     "replace": true,
