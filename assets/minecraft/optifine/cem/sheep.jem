@@ -132,8 +132,8 @@
 					"head2.rx": "torad(-90) + torad(clamp(head_pitch, -30, 25))",
 					"legs.ty": "sin(limb_swing*0.4)*(limb_speed*1.6)",
 					"legs2.ty": "-legs.ty",
-					"legs.tz": "clamp(-cos(limb_swing*0.4)*(limb_speed*1.6), 0, 99)",
-					"legs2.tz": "clamp(cos(limb_swing*0.4)*(limb_speed*1.6), 0, 99)",
+					"legs.tz": "clamp(-cos(limb_swing*0.7)*(limb_speed*1.2), 0, 99)",
+					"legs2.tz": "clamp(cos(limb_swing*0.7)*(limb_speed*1.2), 0, 99)",
 					"body2.tz": "if(limb_speed<0.1, 2, 2+(cos(limb_swing*1.4)*(limb_speed*0.8)))",
 					"body2.ry": "sin(-limb_swing*0.7)*(limb_speed*0.2)",
 					"body2.tx": "sin(-limb_swing*0.7)*(limb_speed*2.2)",
@@ -146,14 +146,7 @@
 			"part": "leg1",
 			"id": "leg1",
 			"invertAxis": "xy",
-			"translate": [-3, -12, -7],
-			"submodels": [
-				{
-					"id": "r2",
-					"invertAxis": "xy",
-					"translate": [0, 0, 0]
-				}
-			]
+			"translate": [-3, -12, -7]
 		},
 		{
 			"part": "leg2",
