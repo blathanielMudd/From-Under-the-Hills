@@ -1,0 +1,10 @@
+{
+  "parent": "tweaks:block/grass_block_vary",
+  "textures": {
+    "bottom": "minecraft:block/dirt",
+    "particle": "minecraft:block/grass",
+    "side": "minecraft:block/grass_block_side",
+    "top": "minecraft:block/grass_block_top",
+    "vary":"tweaks:block/eye"
+  }
+}
