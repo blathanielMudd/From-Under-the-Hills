@@ -6,5 +6,9 @@
     "item.minecraft.cooked_beef": "Cooked Beef?",
     "entity.minecraft.chicken": "Wallagog",
     "entity.minecraft.cow": "Bovilith",
-    "entity.minecraft.sheep": "Woolbud"
+    "entity.minecraft.sheep": "Woolbud",
+    "item.minecraft.ink_sac": "Ink",
+    "item.minecraft.glow_ink_sac": "Glowing Ink",
+    "item.minecraft.poisonous_potato": "Poison",
+    "gui.recipebook.search_hint": " "
 }

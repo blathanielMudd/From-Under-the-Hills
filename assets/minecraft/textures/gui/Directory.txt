@@ -1,0 +1,2 @@
+All interfaces are in "container"
+All overlay bits like arrows, fire and x's are in "sprites/container"
