@@ -10,5 +10,7 @@
     "item.minecraft.ink_sac": "Ink",
     "item.minecraft.glow_ink_sac": "Glowing Ink",
     "item.minecraft.poisonous_potato": "Poison",
-    "gui.recipebook.search_hint": " "
+    "gui.recipebook.search_hint": "...",
+    "container.crafting": "",
+    "container.inventory": ""
 }
