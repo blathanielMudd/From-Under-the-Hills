@@ -1,0 +1,1 @@
+Unzip and place in "%appdata%\.minecraft\resourcepacks\"
