@@ -1,0 +1,26 @@
+	{
+		"parent": "minecraft:item/handheld",
+		"textures": {
+			"layer0": "minecraft:item/warped_fungus_on_a_stick"
+		},
+		"overrides": [
+			{
+				"predicate": {
+					"custom_model_data": 27661
+				},
+				"model": "item/rift_sphere"
+			},
+			{
+				"predicate": {
+					"custom_model_data": 60435
+				},
+				"model": "minecraft:item/escape_rope"
+			},
+			{
+				"predicate": {
+					"custom_model_data": 61953
+				},
+				"model": "minecraft:item/totem_of_undoing"
+			}
+		]
+	}
