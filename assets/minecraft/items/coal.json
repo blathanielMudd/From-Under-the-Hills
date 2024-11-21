@@ -1,0 +1,42 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "fallback": {
+            "type": "model",
+            "model": "item/coal"
+        },
+        "cases": [
+            {
+                "when": "gui",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "count",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/coal"
+                    },
+                    "scale": 64,
+                    "entries": [
+                        {
+                            "threshold": 64,
+                            "model": {
+                                "type": "composite",
+                                "models": [
+                                    {
+                                        "type": "model",
+                                        "model": "item/full"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "item/coal"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
