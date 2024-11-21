@@ -1,16 +1,51 @@
 {
+    "hand_animation_on_swap": false,
     "model": {
         "type": "minecraft:condition",
         "property": "minecraft:has_component",
         "component": "minecraft:custom_name",
         "ignore_default": true,
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_sword"
+        },
+        "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:keybind_down",
+            "keybind": "key.attack",
+            "on_false": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/iron_sword"
+            },
+            "on_true": {
+                "type": "minecraft:condition",
+                "property": "minecraft:selected",
+                "on_false": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/iron_sword"
+                },
+                "on_true": {
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "item/iron_sword_use"
+                    },
+                    "cases": [
+                        {
+                            "when": "gui",
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "item/iron_sword"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
         "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/iron_sword_named"
-        },
-        "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/iron_sword"
         }
     }
 }
