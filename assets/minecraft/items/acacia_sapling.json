@@ -1,0 +1,22 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "item/acacia_sapling_held"
+        },
+        "cases": [
+            {
+                "when": [
+                    "ground",
+                    "gui"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/acacia_sapling"
+                }
+            }
+        ]
+    }
+}
